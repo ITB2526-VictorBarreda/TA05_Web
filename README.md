@@ -3,77 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pàgina d'Inici</title>
+    <title>Pàgina Rayo McQueen</title>
     <style>
         body {
-            font-family: 'Comic Sans MS', cursive, sans-serif;
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(135deg, #ffcccc, #ccffff);
-            color: #333;
+            background-color: red; /* Fons vermell */
+            color: #fff;
+            text-align: center;
         }
         header {
-            background: #ff6699;
-            color: #fff;
             padding: 1.5rem;
-            text-align: center;
-        }
-        nav {
-            background: #66ccff;
-            padding: 1rem;
-            text-align: center;
-        }
-        nav a {
-            color: #fff;
-            margin: 0 1rem;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        nav a:hover {
-            color: #ffcc00;
         }
         main {
-            padding: 2rem;
-            text-align: center;
+            margin-top: 2rem;
         }
-        main h2 {
-            color: #ff6600;
-        }
-        main p {
-            background: #ffff99;
-            padding: 1rem;
-            border-radius: 10px;
-            display: inline-block;
+        img {
+            max-width: 400px;
+            border: 5px solid #fff;
+            border-radius: 15px;
+            box-shadow: 0 0 20px #000;
         }
         footer {
-            background: #9933ff;
-            color: #fff;
-            text-align: center;
+            margin-top: 2rem;
             padding: 1rem;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+            background: #660000;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Benvingut a la meva pàgina!</h1>
+        <h1>Benvingut a la pàgina del Rayo McQueen!</h1>
     </header>
 
-    <nav>
-        <a href="#">Inici</a>
-        <a href="#">Sobre mi</a>
-        <a href="#">Contacte</a>
-    </nav>
-
     <main>
-        <h2>Secció Principal</h2>
-        <p>Aquesta és una pàgina d'exemple en català amb molts colorins per fer-la divertida!</p>
+        <!-- Substitueix l'URL per la imatge que vulguis -->
+        <img src="https://upload.wikimedia.org/wikipedia/en/9/90/Lightning_McQueen.png" alt="Rayo McQueen">
+        <p>El cotxe més ràpid de Radiator Springs 🏁</p>
     </main>
 
     <footer>
-        <p>&copy; 2025 La Meva Web Colorida</p>
+        <p>&copy; 2025 Pàgina Vermella de McQueen</p>
     </footer>
 </body>
 </html>
