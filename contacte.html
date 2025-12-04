@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacte</title>
+    <link rel="stylesheet" href="estils.css">
+</head>
+<body>
+    <h1>Formulari de Contacte</h1>
+    <form id="formulari">
+        <label>Nom:
+            <input type="text" name="nom" required pattern="[A-Za-zÀ-ÿ\s]{3,}">
+        </label><br><br>
+        <label>Email:
+            <input type="email" name="email" required>
+        </label><br><br>
+        <label>Missatge:
+            <textarea name="missatge" required minlength="10"></textarea>
+        </label><br><br>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
