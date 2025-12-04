@@ -1,94 +1,34 @@
-/* Estil general */
 body {
-    font-family: 'Comic Sans MS', cursive, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(135deg, #ff6666, #ffcc66, #66ccff, #cc66ff);
-    background-size: 400% 400%;
-    animation: gradientBG 15s ease infinite;
-    color: #333;
-    text-align: center;
+  font-family: 'Comic Sans MS', cursive;
+  background: linear-gradient(135deg, #ff0000, #ffcc00);
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
-
-/* Animació del fons */
-@keyframes gradientBG {
-    0% {background-position: 0% 50%;}
-    50% {background-position: 100% 50%;}
-    100% {background-position: 0% 50%;}
-}
-
-/* Capçalera */
 header {
-    background: #ff3366;
-    color: #fff;
-    padding: 2rem;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  background: #cc0000;
+  padding: 2rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
-
-/* Seccions */
 main {
-    margin: 2rem auto;
-    max-width: 800px;
-    background: #ffffffaa;
-    padding: 2rem;
-    border-radius: 20px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  padding: 2rem;
 }
-
-/* Projectes destacats */
 article {
-    margin: 1.5rem 0;
-    padding: 1rem;
-    border-radius: 15px;
-    background: linear-gradient(45deg, #ffcc00, #ff6699);
-    color: #fff;
-    transition: transform 0.3s;
+  background: #ffcc00;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 15px;
+  max-width: 600px;
+  color: #000;
 }
-article:hover {
-    transform: scale(1.05);
+img {
+  max-width: 500px;
+  border: 5px solid #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #000;
 }
-
-/* Enllaços */
-a {
-    color: #0066ff;
-    font-weight: bold;
-    text-decoration: none;
-}
-a:hover {
-    color: #ffcc00;
-    text-decoration: underline;
-}
-
-/* Formulari */
-form {
-    background: #ccffcc;
-    padding: 2rem;
-    border-radius: 15px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
-}
-input, textarea {
-    padding: 0.5rem;
-    margin: 0.5rem;
-    border: 2px solid #66ccff;
-    border-radius: 10px;
-}
-button {
-    background: #ff3366;
-    color: #fff;
-    padding: 0.7rem 1.5rem;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-}
-button:hover {
-    background: #ffcc00;
-    color: #333;
-}
-
-/* Peu de pàgina */
 footer {
-    margin-top: 2rem;
-    padding: 1rem;
-    background: #6600cc;
-    color: #fff;
+  background: #660000;
+  padding: 1rem;
 }
