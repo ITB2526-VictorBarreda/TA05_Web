@@ -1,34 +1,89 @@
 body {
+  margin: 0;
   font-family: 'Comic Sans MS', cursive;
-  background: linear-gradient(135deg, #ff0000, #ffcc00);
+  background-color: #cc0000;
   color: #fff;
   text-align: center;
-  margin: 0;
-  padding: 0;
+  animation: fonsAnimat 10s ease infinite;
 }
+
+@keyframes fonsAnimat {
+  0% { background-color: #cc0000; }
+  50% { background-color: #ff3300; }
+  100% { background-color: #cc0000; }
+}
+
 header {
-  background: #cc0000;
   padding: 2rem;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  background: #990000;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
 }
-main {
-  padding: 2rem;
+
+.intro {
+  margin: 2rem auto;
 }
-article {
-  background: #ffcc00;
-  margin: 1rem auto;
-  padding: 1rem;
-  border-radius: 15px;
-  max-width: 600px;
-  color: #000;
-}
-img {
+
+.mcqueen {
+  width: 80%;
   max-width: 500px;
   border: 5px solid #fff;
-  border-radius: 15px;
+  border-radius: 20px;
   box-shadow: 0 0 20px #000;
+  animation: zoomIn 2s ease;
 }
+
+@keyframes zoomIn {
+  from { transform: scale(0.8); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.quote {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.projectes {
+  margin: 3rem auto;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #ffcc00;
+  color: #000;
+  padding: 1rem;
+  border-radius: 15px;
+  width: 250px;
+  box-shadow: 0 0 10px #000;
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+
+a {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
 footer {
   background: #660000;
   padding: 1rem;
+  margin-top: 2rem;
 }
