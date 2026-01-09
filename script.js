@@ -36,3 +36,17 @@ if (form) {
     }
   });
 }
+// Scroll to top button
+const scrollTopBtn = document.getElementById("scrollTopBtn");
+
+window.onscroll = function () {
+  if (scrollTopBtn) {
+    scrollTopBtn.style.display = window.scrollY > 300 ? "block" : "none";
+  }
+};
+
+if (scrollTopBtn) {
+  scrollTopBtn.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+}
