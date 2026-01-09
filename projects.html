@@ -14,69 +14,74 @@
     <p>Explore all projects by category</p>
   </header>
 
-<!-- CATEGORY NAVIGATION MENU -->
-<nav class="category-menu">
-  <ul>
-    <li><a href="#networking">Networking</a></li>
-    <li><a href="#systems">Operating Systems</a></li>
-    <li><a href="#databases">Databases</a></li>
-    <li><a href="#web">Web & Sustainability</a></li>
-    <li><a href="#cybersecurity">Cybersecurity</a></li>
-    <li><a href="#devops">DevOps & Automation</a></li>
-  </ul>
-</nav>
+  <!-- Category Navigation -->
+  <nav class="category-menu">
+    <ul>
+      <li><a href="#networking">Networking</a></li>
+      <li><a href="#systems">Operating Systems</a></li>
+      <li><a href="#databases">Databases</a></li>
+      <li><a href="#web">Web & Sustainability</a></li>
+      <li><a href="#cybersecurity">Cybersecurity</a></li>
+      <li><a href="#devops">DevOps & Automation</a></li>
+    </ul>
+  </nav>
 
   <main class="project-list">
 
     <!-- NETWORKING -->
     <h2 class="logo" id="networking">Networking Projects</h2>
 
-    <div class="project-box">
-      <div class="project-header">
+    <div class="project-row">
+      <div class="project-image">
+        <img src="img/LAN_design_1.jpg" alt="LAN Design" />
+      </div>
+      <div class="project-info">
         <h2>LAN Design</h2>
         <p class="project-subtitle">Topology and subnetting</p>
-      </div>
-      <div class="project-content">
         <p>Designed a scalable LAN using subnetting and VLANs for a simulated company. Focused on IP planning, switch configuration, and addressing schemes.</p>
       </div>
     </div>
 
-    <div class="project-box">
-      <div class="project-header">
+    <div class="project-row reverse">
+      <div class="project-image">
+        <img src="img/Firewall.png" alt="Firewall Configuration" />
+      </div>
+      <div class="project-info">
         <h2>Firewall Configuration</h2>
         <p class="project-subtitle">Security rules and NAT</p>
-      </div>
-      <div class="project-content">
         <p>Configured iptables and pfSense to secure internal networks, applying NAT, port forwarding, and access control lists.</p>
       </div>
     </div>
 
-    <div class="project-box">
-      <div class="project-header">
+    <div class="project-row">
+      <div class="project-image">
+        <img src="img/DHCP.png" alt="DNS & DHCP Setup" />
+      </div>
+      <div class="project-info">
         <h2>DNS & DHCP Setup</h2>
         <p class="project-subtitle">Dynamic addressing and name resolution</p>
-      </div>
-      <div class="project-content">
         <p>Deployed DNS and DHCP services in a virtual lab using Linux servers. Ensured dynamic IP assignment and hostname resolution.</p>
       </div>
     </div>
 
-    <div class="project-box">
-      <div class="project-header">
+    <div class="project-row reverse">
+      <div class="project-image">
+        <img src="img/Routing-Protocols.png" alt="Routing Protocols Lab" />
+      </div>
+      <div class="project-info">
         <h2>Routing Protocols Lab</h2>
         <p class="project-subtitle">OSPF and RIP configuration</p>
-      </div>
-      <div class="project-content">
         <p>Simulated dynamic routing environments and compared protocol performance using Cisco Packet Tracer.</p>
       </div>
     </div>
 
-    <div class="project-box">
-      <div class="project-header">
+    <div class="project-row">
+      <div class="project-image">
+        <img src="img/networkmonitoring.jpg" alt="Network Monitoring" />
+      </div>
+      <div class="project-info">
         <h2>Network Monitoring</h2>
         <p class="project-subtitle">SNMP and traffic analysis</p>
-      </div>
-      <div class="project-content">
         <p>Monitored network health and bandwidth using SNMP tools and traffic analyzers like Wireshark and ntopng.</p>
       </div>
     </div>
@@ -84,127 +89,139 @@
     <!-- OPERATING SYSTEMS -->
     <h2 class="logo" id="systems">Operating Systems</h2>
 
-    <div class="project-box">
-      <div class="project-header">
+    <div class="project-row reverse">
+      <div class="project-image">
+        <img src="img/unnamed.jpg" alt="Linux User Management" />
+      </div>
+      <div class="project-info">
         <h2>Linux User Management</h2>
         <p class="project-subtitle">Shell scripting and permissions</p>
-      </div>
-      <div class="project-content">
         <p>Automated user creation and permission assignment using Bash scripts and group policies.</p>
       </div>
     </div>
 
-    <div class="project-box">
-      <div class="project-header">
+    <div class="project-row">
+      <div class="project-image">
+        <img src="img/windows-10-logo.jpg" alt="Windows Services" />
+      </div>
+      <div class="project-info">
         <h2>Windows Services</h2>
         <p class="project-subtitle">Task Scheduler and PowerShell</p>
-      </div>
-      <div class="project-content">
         <p>Created automated maintenance tasks and service monitoring scripts using PowerShell and Windows Task Scheduler.</p>
       </div>
     </div>
 
-    <div class="project-box">
-      <div class="project-header">
+    <div class="project-row reverse">
+      <div class="project-image">
+        <img src="img/VirtualBox_2024_Logo.svg.png" alt="Virtualization Lab" />
+      </div>
+      <div class="project-info">
         <h2>Virtualization Lab</h2>
         <p class="project-subtitle">VirtualBox and ISO deployment</p>
-      </div>
-      <div class="project-content">
         <p>Built a multi-OS virtual lab with snapshots, shared folders, and bridged networking using VirtualBox.</p>
       </div>
     </div>
 
-    <div class="project-box">
-      <div class="project-header">
+    <div class="project-row">
+      <div class="project-image">
+        <img src="img/hardware-2.jpg" alt="System Performance Tuning" />
+      </div>
+      <div class="project-info">
         <h2>System Performance Tuning</h2>
         <p class="project-subtitle">CPU, memory, and disk optimization</p>
-      </div>
-      <div class="project-content">
         <p>Analyzed and optimized system performance using tools like top, htop, iotop, and sysctl configurations.</p>
       </div>
     </div>
-
     <!-- DATABASES -->
-    <h2 class="logo" id="databases">Database Projects</h2>
+    <h2 class="logo" id="databases">Databases</h2>
 
-    <div class="project-box">
-      <div class="project-header">
-        <h2>Inventory System</h2>
-        <p class="project-subtitle">MySQL + PHP</p>
+    <div class="project-row">
+      <div class="project-image">
+        <img src="img/SQL-Queries.jpeg" alt="SQL Queries" />
       </div>
-      <div class="project-content">
-        <p>Built a CRUD inventory system with relational database and web interface using MySQL and PHP.</p>
-      </div>
-    </div>
-
-    <div class="project-box">
-      <div class="project-header">
-        <h2>ER Diagram & Normalization</h2>
-        <p class="project-subtitle">From concept to schema</p>
-      </div>
-      <div class="project-content">
-        <p>Designed a normalized database schema from a real-world scenario using ER modeling and 3NF principles.</p>
-      </div>
-    </div>
-
-    <div class="project-box">
-      <div class="project-header">
-        <h2>SQL Query Challenges</h2>
+      <div class="project-info">
+        <h2>SQL Queries</h2>
         <p class="project-subtitle">Joins, subqueries, and aggregation</p>
-      </div>
-      <div class="project-content">
-        <p>Completed a series of complex SQL exercises to extract insights from large datasets using joins and nested queries.</p>
+        <p>Designed and executed complex SQL queries using JOINs, GROUP BY, and subqueries to extract insights from relational databases.</p>
       </div>
     </div>
 
-    <div class="project-box">
-      <div class="project-header">
-        <h2>Database Backup Automation</h2>
-        <p class="project-subtitle">Scheduled dumps and recovery</p>
+    <div class="project-row reverse">
+      <div class="project-image">
+        <img src="img/Database%20Normalization.png" alt="Database Normalization" />
       </div>
-      <div class="project-content">
-        <p>Automated daily backups and tested recovery procedures using cron jobs and mysqldump scripts.</p>
+      <div class="project-info">
+        <h2>Database Normalization</h2>
+        <p class="project-subtitle">1NF to 3NF design</p>
+        <p>Transformed unstructured data into normalized schemas, reducing redundancy and improving data integrity.</p>
       </div>
     </div>
+
+    <div class="project-row">
+      <div class="project-image">
+        <img src="img/Gemini_Generated_Image_j4c8xvj4c8xvj4c8.png" alt="PHP + MySQL App" />
+      </div>
+      <div class="project-info">
+        <h2>PHP + MySQL App</h2>
+        <p class="project-subtitle">CRUD operations and login system</p>
+        <p>Built a web app with user authentication and database interaction using PHP and MySQLi.</p>
+      </div>
+    </div>
+
+    <div class="project-row reverse">
+      <div class="project-image">
+        <img src="img/word-image-236.png" alt="Database Backup & Restore" />
+      </div>
+      <div class="project-info">
+        <h2>Database Backup & Restore</h2>
+        <p class="project-subtitle">mysqldump and recovery</p>
+        <p>Automated database backups and tested recovery procedures using command-line tools and scheduled tasks.</p>
+      </div>
+    </div>
+
     <!-- WEB & SUSTAINABILITY -->
     <h2 class="logo" id="web">Web & Sustainability</h2>
 
-    <div class="project-box">
-      <div class="project-header">
+    <div class="project-row">
+      <div class="project-image">
+        <img src="images/portfolio.jpg" alt="Eco-Friendly Portfolio" />
+      </div>
+      <div class="project-info">
         <h2>Eco-Friendly Portfolio</h2>
         <p class="project-subtitle">Low-carbon design</p>
-      </div>
-      <div class="project-content">
         <p>Developed a lightweight, accessible portfolio with minimal energy impact using semantic HTML and optimized assets.</p>
       </div>
     </div>
 
-    <div class="project-box">
-      <div class="project-header">
+    <div class="project-row reverse">
+      <div class="project-image">
+        <img src="img/Responsive-design-best-practices.png" alt="Responsive Layouts" />
+      </div>
+      <div class="project-info">
         <h2>Responsive Layouts</h2>
         <p class="project-subtitle">Mobile-first CSS</p>
-      </div>
-      <div class="project-content">
         <p>Created responsive layouts using flexbox and media queries to ensure usability across all screen sizes.</p>
       </div>
     </div>
 
-    <div class="project-box">
-      <div class="project-header">
+    <div class="project-row">
+      <div class="project-image">
+        <img src="img/html-sementics-layout.png" alt="Semantic HTML" />
+      </div>
+      <div class="project-info">
         <h2>Semantic HTML</h2>
         <p class="project-subtitle">Accessibility and structure</p>
-      </div>
-      <div class="project-content">
         <p>Used semantic tags and ARIA roles to improve accessibility, SEO, and screen reader compatibility.</p>
       </div>
     </div>
 
-    <div class="project-box">
-      <div class="project-header">
+    <div class="project-row reverse">
+      <div class="project-image">
+        <img src="img/675038b45985420c3fd76d4c_674fee0e75d184828e6eae7a_674fe1750666b8dfc3574c95_674ef09798de4b0295991377_66fe912f2b8ed5173afc2518_66b1b9528c9b0dd8c4fffdff_AD_4nXfWdBC-I_YCHOnl4IUJJthAYZ2uSMEHh-pgAmXvixQYSLoEv5_TPr8ZQx2jkj_-BVmPpHlwIRr5D2r1x54UEfBe306FGRP4I.png" alt="Green UX Audit" />
+      </div>
+      <div class="project-info">
         <h2>Green UX Audit</h2>
         <p class="project-subtitle">Lighthouse and carbon analysis</p>
-      </div>
-      <div class="project-content">
         <p>Audited website performance and environmental impact using Lighthouse and Website Carbon Calculator.</p>
       </div>
     </div>
@@ -212,42 +229,46 @@
     <!-- CYBERSECURITY -->
     <h2 class="logo" id="cybersecurity">Cybersecurity</h2>
 
-    <div class="project-box">
-      <div class="project-header">
+    <div class="project-row">
+      <div class="project-image">
+        <img src="img/cybersecurity_NicoElNino-AlamyStockPhoto.jpg" alt="Vulnerability Scanning" />
+      </div>
+      <div class="project-info">
         <h2>Vulnerability Scanning</h2>
         <p class="project-subtitle">Nmap and OpenVAS</p>
-      </div>
-      <div class="project-content">
         <p>Scanned and analyzed network vulnerabilities using Nmap and OpenVAS in a simulated environment.</p>
       </div>
     </div>
 
-    <div class="project-box">
-      <div class="project-header">
+    <div class="project-row reverse">
+      <div class="project-image">
+        <img src="img/offline-password-cracking.jpg" alt="Password Cracking Lab" />
+      </div>
+      <div class="project-info">
         <h2>Password Cracking Lab</h2>
         <p class="project-subtitle">Hashcat and John the Ripper</p>
-      </div>
-      <div class="project-content">
         <p>Tested password strength and recovery techniques using real-world hashing algorithms and brute-force tools.</p>
       </div>
     </div>
 
-    <div class="project-box">
-      <div class="project-header">
+    <div class="project-row">
+      <div class="project-image">
+        <img src="img/firewall.png" alt="Firewall Hardening" />
+      </div>
+      <div class="project-info">
         <h2>Firewall Hardening</h2>
         <p class="project-subtitle">iptables and pfSense</p>
-      </div>
-      <div class="project-content">
         <p>Configured advanced firewall rules to block malicious traffic and enforce segmentation policies.</p>
       </div>
     </div>
 
-    <div class="project-box">
-      <div class="project-header">
+    <div class="project-row reverse">
+      <div class="project-image">
+        <img src="images/phishing.jpg" alt="Social Engineering Awareness" />
+      </div>
+      <div class="project-info">
         <h2>Social Engineering Awareness</h2>
         <p class="project-subtitle">Phishing simulation</p>
-      </div>
-      <div class="project-content">
         <p>Designed a phishing campaign to raise awareness and test user response in a controlled classroom setting.</p>
       </div>
     </div>
@@ -255,45 +276,52 @@
     <!-- DEVOPS & AUTOMATION -->
     <h2 class="logo" id="devops">DevOps & Automation</h2>
 
-    <div class="project-box">
-      <div class="project-header">
+    <div class="project-row">
+      <div class="project-image">
+        <img src="images/cicd.jpg" alt="CI/CD Pipeline" />
+      </div>
+      <div class="project-info">
         <h2>CI/CD Pipeline</h2>
         <p class="project-subtitle">GitHub Actions + Docker</p>
-      </div>
-      <div class="project-content">
         <p>Built a continuous integration pipeline to automate testing and deployment of web apps using GitHub Actions and Docker containers.</p>
       </div>
     </div>
 
-    <div class="project-box">
-      <div class="project-header">
+    <div class="project-row reverse">
+      <div class="project-image">
+        <img src="images/terraform.jpg" alt="Infrastructure as Code" />
+      </div>
+      <div class="project-info">
         <h2>Infrastructure as Code</h2>
         <p class="project-subtitle">Terraform basics</p>
-      </div>
-      <div class="project-content">
         <p>Provisioned virtual machines and networks using declarative Terraform scripts and version-controlled infrastructure.</p>
       </div>
     </div>
 
-    <div class="project-box">
-      <div class="project-header">
+    <div class="project-row">
+      <div class="project-image">
+        <img src="images/bash.jpg" alt="Linux Automation" />
+      </div>
+      <div class="project-info">
         <h2>Linux Automation</h2>
         <p class="project-subtitle">Bash scripting</p>
-      </div>
-      <div class="project-content">
         <p>Automated system updates, backups, and log rotation using custom Bash scripts and cron jobs.</p>
       </div>
     </div>
 
-    <div class="project-box">
-      <div class="project-header">
+    <div class="project-row reverse">
+      <div class="project-image">
+        <img src="images/prometheus.jpg" alt="Monitoring with Prometheus" />
+      </div>
+      <div class="project-info">
         <h2>Monitoring with Prometheus</h2>
         <p class="project-subtitle">Metrics and alerts</p>
-      </div>
-      <div class="project-content">
         <p>Set up Prometheus and Grafana to monitor server performance, visualize metrics, and trigger alerts on thresholds.</p>
       </div>
     </div>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn" title="Go to top">↑</button>
 
   </main>
 
